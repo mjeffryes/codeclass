@@ -1,0 +1,127 @@
+####################################################
+## State Group 00: Sweep N, Step E, Follow S wall ##
+####################################################
+
+# state 0: Sweep N
+###############################
+# with nothing to the N: go one step N
+0 x*** -> N 0
+# with something to the N: stay put + into return state
+0 N*** -> X 1
+
+# state 1: Return S
+###############################
+# with nothing to the S; Go S
+1 ***x -> S 1
+# with something to the S: stay put + into step state
+1 ***S -> X 2
+
+# state 2: Step E
+###############################
+# If there's no wall E, step E + into follow wall state
+2 *x** -> E 3
+# If there's a wall to the E, stay put + "turn" left
+2 *E** -> X 30
+
+# state 3: Follow S Wall
+###############################
+# If there's wall to the S, stay put + into sweep state
+3 ***S -> X 0
+# If there's no wall to the S, step S + "turn" right
+3 ***x -> S 10
+
+####################################################
+## State Group 10: Sweep E, Step S, Follow W wall ##
+####################################################
+
+# state 10: Sweep E
+###############################
+# with nothing to the E: go one step E
+10 *x** -> E 10
+# with something to the E: stay put + into return state
+10 *E** -> X 11
+
+# state 11: Return W
+###############################
+# with nothing to the W; Go W
+11 **x* -> W 11
+# with something to the W: stay put + into step state
+11 **W* -> X 12
+
+# state 12: Step S
+###############################
+# If there's no wall S, step S + into follow wall state
+12 ***x -> S 13
+# If there's a wall to the S, stay put + "turn" left
+12 ***S -> X 00
+
+# state 13: Follow W Wall
+###############################
+# If there's wall to the W, stay put + into sweep state
+13 **W* -> X 10
+# If there's no wall to the W, step W + "turn" right
+13 **x* -> W 20
+
+####################################################
+## State Group 20: Sweep S, Step W, Follow N wall ##
+####################################################
+
+# state 20: Sweep S
+###############################
+# with nothing to the S: go one step S
+20 ***x -> S 20
+# with something to the S: stay put + into return state
+20 ***S -> X 21
+
+# state 21: Return N
+###############################
+# with nothing to the N; Go N
+21 x*** -> N 21
+# with something to the N: stay put + into step state
+21 N*** -> X 22
+
+# state 22: Step W
+###############################
+# If there's no wall W, step W + into follow wall state
+22 **x* -> W 23
+# If there's a wall to the W, stay put + "turn" left
+22 **W* -> X 10
+
+# state 23: Follow N Wall
+###############################
+# If there's wall to the N, stay put + into sweep state
+23 N*** -> X 20
+# If there's no wall to the N, step N + "turn" right
+23 x*** -> N 30
+
+####################################################
+## State Group 30: Sweep W, Step N, Follow E wall ##
+####################################################
+
+# state 30: Sweep W
+###############################
+# with nothing to the W: go one step W
+30 **x* -> W 30
+# with something to the W: stay put + into return state
+30 **W* -> X 31
+
+# state 31: Return E
+###############################
+# with nothing to the E; Go E
+31 *x** -> E 31
+# with something to the E: stay put + into step state
+31 *E** -> X 32
+
+# state 32: Step N
+###############################
+# If there's no wall N, step N + into follow wall state
+32 x*** -> N 33
+# If there's a wall to the N, stay put + "turn" left
+32 N*** -> X 20
+
+# state 33: Follow E Wall
+###############################
+# If there's wall to the E, stay put + into sweep state
+33 *E** -> X 30
+# If there's no wall to the E, step E + "turn" right
+33 *x** -> E 00

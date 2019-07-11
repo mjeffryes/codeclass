@@ -1,0 +1,32 @@
+# state 0: sweep N step W
+#########################
+# state 0 with nothing N: go one step N
+0 x*** -> N 0
+# state 0 with something to the N: go W + into st 1
+0 N*x* -> W 1
+# state 0 with something to the N and W: go E + into st 3
+0 N*W* -> E 3
+
+# state 1: Sweep S, Step W
+###################
+# state 1 with nothing to the S: go one step S
+1 ***x -> S 1
+# state 1 with something to the S: stay put + into state 0
+1 ***S -> X 0
+
+# state 2: Sweep N, step E
+##########################
+# state 2 with nothing N: go one step N
+2 x*** -> N 2
+# state 2 with something to the N: go E + into st 3
+2 Nx** -> E 3
+# state 2 with something to the N and E: go W + into st 1
+2 NE** -> W 1
+
+# state 3: Sweep S, step E
+###################
+# state 3 with nothing to the S: go one step S
+3 ***x -> S 3
+# state 3 with something to the S: stay put + into state 0
+3 ***S -> X 2
+

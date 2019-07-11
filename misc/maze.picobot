@@ -1,0 +1,37 @@
+# state 0 Head W along a N Wall
+###############################
+# state 0 with nothing to the W: go one step W
+0 N*x* -> W 0
+# state 0 with something to the W; turn S
+0 N*W* -> X 1
+# state 0 with no wall to N; turn N
+0 x*** -> N 2
+
+# state 1 Head S along a W wall
+###############################
+# state 1 with nothing S: go one step S
+1 **Wx -> S 1
+# state 1 with something to the S: turn E
+1 **WS -> X 3
+# state 1 with no wall to W; turn W
+1 **x* -> W 0
+
+# state 2 Head N along an E wall
+################################
+# state 2 with nothing N: go one step N
+2 xE** -> N 2
+# state 2 with something to the N: turn W
+2 NE** -> X 0
+# state 2 with no wall to E; turn E
+2 *x** -> E 3
+
+# state 3 Head E along an S wall
+################################
+# state 3 with nothing E: go one step E
+3 *x*S -> E 3
+# state 3 with something to the E: turn N
+3 *E*S -> X 2
+# state 2 with no wall to S; turn S
+3 ***x -> S 1
+
+
