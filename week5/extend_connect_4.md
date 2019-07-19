@@ -4,8 +4,8 @@ Connect 4 is just one of many games that are won by creating a row of the player
 this exercise we will extend our code to play a few more games. In the process, we will see how
 to use and inherit from simpler classes to extend their capabilities.
 
-Note: You'll need a completed `Board` class from the Connect Four exercise. I will provide one in
-class that you can use if you did not have time to finish yesterday.
+Note: You'll need a completed `Board` class from the Connect Four exercise. If you did not
+have time to finish that exercise use [one from the solutions directory](solutions/connect4/board.py).
 
 ## Varying how many pieces in a row we look for
 
@@ -59,22 +59,42 @@ class TicTacToeBoard(Board):
 
 ## Placing other shapes
 
-Some related games (pente) support more that two players where each player gets their own tokens.
+Some related games (eg. [pente](https://en.wikipedia.org/wiki/Pente)) support more that two players
+ where each player gets their own tokens.
 It turns out most of our `TicTacToeBoard` class is generic enough to support this; eg. `addMove`
-just accepts a string to place in a cell. We'll just need to change `hostGame` to support more
+just accepts a string to place in a cell. We'll just need to change `hostGame`.
 
-Lets move the functions
-for playing the game out of TicTacToe board to a separate TicTacToe class/program. Now "TicTacToeBoard"
-can be something more general. Use this more general thing to make a pente game player.
+We could accomplish this by creating a `PenteBoard` class that inherits from `TicTacToeBoard`
+and redefines `hostGame`; however, this could be confusing: Pente is a different game than
+tic-tac-toe so we won't necessarily want changes to the tic-tac-toe game to affect pente.
 
-## Capture rules/other win conditions
+An alternative is to create separate classes for `TicTacToe` and `Pente` that each use a common
+board type in their implementation:
 
-Pente actually has a rule that lets a player "caputure" their opponent's pieces. We can create a new
-Pente Board with a special addMove and winsFor to add this feature.
+1. Rename `TicTacToeBoard` to `GridBoard`
+2. Create a `TicTacToe` class and move the `hostGame` method from `GridBoard` to the new class.
+
+```
+class GridBoard(Board):
+    ...
+
+
+class TicTacToe:
+    def hostGame(self):
+        ...
+```
+
+3. Modify the `hostGame` method to create a new `GridBoard` instance for each game.
+4. Create a `Pente` class and give it a `hostGame` method of its own. For `Pente` create a
+Board instance that is 20x20 and has a win condition of 5 stones in a row.
+5. Finally update the `hostGame` method of `Pente` let the user select how many players are playing
+(between 2 and 4)
+
+You could make a similar change to `Connect4Board` if you wanted to use it for other kinds of games.
 
 ## More?
 
 There are many more games that introduce slight variations; how would you reorganize your code to add
-support for [quarto](https://en.wikipedia.org/wiki/Quarto_(board_game))?
-What about [connect6](https://en.wikipedia.org/wiki/Connect6)?
+support for [connect6](https://en.wikipedia.org/wiki/Connect6)?
+What about [quarto](https://en.wikipedia.org/wiki/Quarto_(board_game))?
 
