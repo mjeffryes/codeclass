@@ -11,13 +11,17 @@ Interview prep guide
   - [LeetCode](https://leetcode.com/problemset/all/) (Start with easy problems with an answer key and work your way up)
 3. Practice interviewing:
   - in-person (I will find interviewers and setup a sign up sheet)
-  - interviewing.io
+  - interviewing.io (Sign up, but they are still in beta, so may not get a slot here right away)
+  - [Pramp](https://www.pramp.com/invt/VL7qQlyyKnCBznrWNx7K)
+
 
 ## Other resources:
 
 Things you have to pay for, but possibly helpful as you practice:
  - [“Elements of Programming Interviews”](https://www.amazon.com/dp/1537713949/ref=cm_sw_r_tw_dp_U_x_2tkmDbAB40TGA) book
  - www.interviewcake.com
+
+Huge list of other resources here: https://github.com/andreis/interview
 
 
 ## A Typical Technical Interview Process
