@@ -2,17 +2,17 @@ Interview prep guide
 --------------------
 
 1. Watch mock interview videos:
-  1. https://interviewing.io/recordings
-  2. Search ["mock technical interview"](https://www.youtube.com/results?search_query=mock+techincal+interview) on youtube for more.
+   - https://interviewing.io/recordings
+   - Search ["mock technical interview"](https://www.youtube.com/results?search_query=mock+techincal+interview) on youtube for more.
 2. Work practice problems:
-  - Finish [CodingBat python problems](https://codingbat.com/python)
-  - Hacker Rank [python problems](https://www.hackerrank.com/domains/python)
-  - Hacker Rank [interview prep problems](https://www.hackerrank.com/interview/interview-preparation-kit)
-  - [LeetCode](https://leetcode.com/problemset/all/) (Start with easy problems with an answer key and work your way up)
+   - Finish [CodingBat python problems](https://codingbat.com/python)
+   - Hacker Rank [python problems](https://www.hackerrank.com/domains/python)
+   - Hacker Rank [interview prep problems](https://www.hackerrank.com/interview/interview-preparation-kit)
+   - [LeetCode](https://leetcode.com/problemset/all/) (Start with easy problems with an answer key and work your way up)
 3. Practice interviewing:
-  - in-person (I will find interviewers and setup a sign up sheet)
-  - interviewing.io (Sign up, but they are still in beta, so may not get a slot here right away)
-  - [Pramp](https://www.pramp.com/invt/VL7qQlyyKnCBznrWNx7K)
+   - in-person (I will find interviewers and setup a sign up sheet)
+   - interviewing.io (Sign up, but they are still in beta, so may not get a slot here right away)
+   - [Pramp](https://www.pramp.com/invt/VL7qQlyyKnCBznrWNx7K)
 
 
 ## Other resources:
