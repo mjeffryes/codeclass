@@ -11,7 +11,7 @@
 
 ## Week 2, Day 2
 
-**Primary Reading**: [CS4All Chapter 3 through section 3.6](https://www.cs.hmc.edu/csforall/FunctionalProgrammingDeux/functionalprogrammingdeux.html) ([RSA explainer video](https://www.youtube.com/watch?v=wXB-V_Keiu8))
+**Primary Reading**: [CS4All Chapter 3 through section 3.6](https://www.cs.hmc.edu/csforallbook/FunctionalProgrammingDeux/functionalprogrammingdeux.html) ([RSA explainer video](https://www.youtube.com/watch?v=wXB-V_Keiu8))
 
 **Discussion Reading:** [Simple introduction to map-reduce](http://ksat.me/map-reduce-a-really-simple-introduction-kloudo/), [the map-reduce paper](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/16cb30b4b92fd4989b8619a61752a2387c6dd474.pdf)
 
@@ -22,7 +22,7 @@ Exercises: [Filter, Map, Reduce, Count, Sort](https://docs.google.com/document/d
 
 ## Week 2, Day 3
 
-**Primary Reading**: [CS4All Chapter 3 section 3.6](https://www.cs.hmc.edu/csforall/FunctionalProgrammingDeux/functionalprogrammingdeux.html) (Note, this is the same as yesterday’s reading)
+**Primary Reading**: [CS4All Chapter 3 section 3.6](https://www.cs.hmc.edu/csforallbook/FunctionalProgrammingDeux/functionalprogrammingdeux.html) (Note, this is the same as yesterday’s reading)
 
 **Discussion Reading**: [Read the source, Luke](https://blog.codinghorror.com/learn-to-read-the-source-luke/), [how to read someone else's code](https://medium.com/launch-school/how-to-read-source-code-without-ripping-your-hair-out-e066472bbe8d), [how to read other people's code without crying](https://medium.com/@mrlauriegray/the-way-to-read-other-peoples-code-without-ending-up-crying-dd71fee6d005),
 
@@ -35,7 +35,7 @@ Exercises: [Filter, Map, Reduce, Count, Sort](https://docs.google.com/document/d
 
 ## Week 2, Day 4
 
-**Primary Reading**: [Finish CS4All Chapter 3](https://www.cs.hmc.edu/csforall/FunctionalProgrammingDeux/functionalprogrammingdeux.html)
+**Primary Reading**: [Finish CS4All Chapter 3](https://www.cs.hmc.edu/csforallbook/FunctionalProgrammingDeux/functionalprogrammingdeux.html)
 
 **Discussion Reading: **[PEP8](https://www.python.org/dev/peps/pep-0008/), [Coding: it’s just Writing](https://blog.codinghorror.com/coding-its-just-writing/),
 
