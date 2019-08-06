@@ -55,5 +55,4 @@
 
 **Discussion Questions**: None
 
-**Exercises**: [Playing with Micro controllers](https://docs.google.com/document/d/1dvCVfCOkWdj5oPoR6rY5FnsRIC0JlOQ_DtjMiW9jwO8/edit#)
-
+**Exercises**: [Playing with Micro controllers](micropython.md)
