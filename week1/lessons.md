@@ -8,10 +8,13 @@
 
 **Exercises**:
 Solve the empty room and maze picobot maps: [https://www.cs.hmc.edu/picobot/](https://www.cs.hmc.edu/picobot/)
-(diamond and stalactite rooms are bonus)
+(diamond and stalactite rooms are bonus) Debrief at the end of class.
 
 
 ## Week 1, Day 2
+
+Note: In retrospect, I would save this for later and give people more time this week to get used to
+python syntax.
 
 **Primary Reading**: [What is a Finite State Machine?](https://medium.com/@mlbors/what-is-a-finite-state-machine-6d8dec727e2c), [Understanding state machines](https://medium.com/free-code-camp/state-machines-basics-of-computer-science-d42855debc66),
 
@@ -21,7 +24,7 @@ Solve the empty room and maze picobot maps: [https://www.cs.hmc.edu/picobot/](ht
 **Discussion Questions**: (After the exercises) What are the strengths and limitations of FSMs? What makes Picobot a FSM? What would we need to be able to solve all the picobot maps?
 
 **Exercises:**
- Use [http://www.madebyevan.com/fsm/](http://www.madebyevan.com/fsm/) to draw some Finite State Machine models: Model a traffic light, a vending machine, try to think of something else to model on your own. Can you model the the pico bot simulator as an FSM? [Orientation to python part 1.](https://docs.google.com/document/d/1eOz6ibrv8CzSaeGWXudLDgsLjly2tN4ehzLzqYdD6kE/edit#)
+ Use [http://www.madebyevan.com/fsm/](http://www.madebyevan.com/fsm/) to draw some Finite State Machine models: Model a traffic light, a vending machine, try to think of something else to model on your own. Can you model the pico bot simulator as an FSM? [Orientation to python part 1.](install_python.md)
 
 
 ## Week 1, Day 3
@@ -32,7 +35,8 @@ Solve the empty room and maze picobot maps: [https://www.cs.hmc.edu/picobot/](ht
 
 **Discussion Questions**: What does it mean for a program to be “correct”?
 
-**Exercises**: [Orientation to python part 2](https://docs.google.com/document/d/1TyNzYJDJmShf4nPM_mZhMRZU3OiM3WUtSmKypL5u48Q/edit?usp=sharing), [Four Fours](https://docs.google.com/document/d/1SuXFEwttgScGpdoV2-jMTh8xa18yBXoy1cT87IgROek/edit?usp=sharing), [Rock-paper-scissors](https://docs.google.com/document/d/1YXEKB2wg6-dbQ8_RQlHIkml62OK_ZUjni2EDZQ2KZo8/edit?usp=sharing),
+**Exercises**: [Orientation to python part 2](install_editor.md),
+[Four Fours](four_fours.md), [Rock-paper-scissors](rock_paper_scissors.md)
 
 **Aphorism**: "Program testing can be used to show the presence of bugs, but never to show their absence" - Edsger Dijkstra
 
@@ -43,7 +47,7 @@ Solve the empty room and maze picobot maps: [https://www.cs.hmc.edu/picobot/](ht
 
 **Discussion Reading:** Play [towers of hanoi](https://www.coolmathgames.com/0-tower-of-hanoi) until you have the hang of how to solve it (feel free to google the strategy if you’re stuck)
 
-**Discussion Questions**: We’ll discuss recursion in class and work through towers of hannoi solution
+**Discussion Questions**: We’ll discuss recursion in class and work through towers of hanoi solution
 
 **Exercises**: [Function Frenzy](https://www.cs.hmc.edu/twiki/bin/view/CS5/FunctionFrenzyGold), [Recursion Rocks](https://www.cs.hmc.edu/twiki/bin/view/CS5Fall07/RecursionRocks)
 
@@ -56,4 +60,4 @@ Solve the empty room and maze picobot maps: [https://www.cs.hmc.edu/picobot/](ht
 
 **Discussion Questions**: What are some of your favorite/least favorite programs to use? What makes them particularly pleasant/awful?
 
-**Exercises**: [Install the Bash shell on Windows 10](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/), [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial?single_page=1),[Python modules tutorial](https://docs.python.org/3/tutorial/modules.html)
+**Exercises**: [Install the Bash shell on Windows 10](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/), [Learn Enough Command Line to be Dangerous](https://www.learnenough.com/command-line-tutorial?single_page=1) (Note: this is now behind a paywall), [Python modules tutorial](https://docs.python.org/3/tutorial/modules.html) (Note: Modules tutorial should probably come later)
