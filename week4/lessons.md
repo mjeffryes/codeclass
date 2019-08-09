@@ -48,7 +48,7 @@
 
 **Discussion Questions**: What makes for a good technical specification?
 
-**Exercises**: [FormatWars](https://docs.google.com/document/d/1P24S7UfQirf2iN4INUZFqWeezc1GkpI1s58UWLXvpM8/edit#)
+**Exercises**: [FormatWars](format_wars.md)
 
 
 ## Week 4, Day 6
@@ -57,4 +57,4 @@
 
 **Discussion Questions**: None
 
-**Exercises**: [Regular expressions, grep and sed](https://docs.google.com/document/d/1Gh3JK3JqUwR5PUVKzAoqr7CiS4juCYtO1eiHOcNn90w/edit?usp=sharing)
+**Exercises**: [Regular expressions, grep and sed](regex_grep_sed.md)
