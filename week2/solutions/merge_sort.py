@@ -10,24 +10,24 @@ def merge(left, right):
         return [left[0]] + merge(left[1:], right)
 
     result = []  # final result array, that is an empty array
- 
+
 # Definition for merge sort
 # this takes an input list
 def mergesort(lst):
     if(len(lst) <= 1): # this means that the list is already sorted.
         return lst
     mid = int(len(lst)/2)
- 
-# left array will be mergesort applied over the list from starting index 
+
+# left array will be mergesort applied over the list from starting index
 # till the mid index
     left = mergesort(lst[:mid])
- 
+
 # right array will be mergesort applied recursively over the list from mid index
-# till the last index 
+# till the last index
     right = mergesort(lst[mid:])
- 
+
     return merge(left,right)  # finally return merge over left and right
- 
-# create an array, assign elements into it  
+
+# create an array, assign elements into it
 arr = [1,9,4,3,2]
 print(mergesort(arr)) # print sorted array

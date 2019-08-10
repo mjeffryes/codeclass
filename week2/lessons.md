@@ -6,8 +6,7 @@
 
 **Discussion Questions**: Is “asking smart questions” an expectation unique to “hackers”? How do other disciplines manage “dumb questions”? How do you defend your time for productive work?
 
-**Exercises**: [Knock Knock](https://docs.google.com/document/d/1cfctDfPVz-Enmat0QGewUeh4N0betet8nSU6PVoxr_w/edit#), [More Recursion](https://docs.google.com/document/d/1kZnT2106LVJ5K-m_2bQLWaSw6MtmFyC4p0dl5maIf3E/edit?usp=sharing)
-
+**Exercises**: [Knock Knock](knock_knock.md), [More Recursion](more_recursion.md)
 
 ## Week 2, Day 2
 
@@ -17,8 +16,8 @@
 
 **Discussion Questions**: Why is it called Map-Reduce? How is it similar to python’s map/filter/reduce functions? What’s the big difference?
 
-Exercises: [Filter, Map, Reduce, Count, Sort](https://docs.google.com/document/d/1VpSbj2enKs1HbV8jox9I6twy5yXGcbBZULi2BJei1Lc/edit?usp=sharing), [Threeze game (You can skip part 1, we've already done it)](https://www.cs.hmc.edu/twiki/bin/view/CS5Fall09/ThreeZee)
-
+Exercises: [Filter, Map, Reduce, Count, Sort](filter_map_reduce_count_sort.md),
+[Threeze game (You can skip part 1, we've already done it)](https://www.cs.hmc.edu/twiki/bin/view/CS5Fall09/ThreeZee)
 
 ## Week 2, Day 3
 
@@ -30,8 +29,7 @@ Exercises: [Filter, Map, Reduce, Count, Sort](https://docs.google.com/document/d
 
 **Discussion Questions**: How is reading code like/unlike reading literature? What did you learn?
 
-**Exercises**:  [Lights Out](https://docs.google.com/document/d/1aoqIHVnjU6cjFf16-AmrADVzC_n-teGCRlE6TXshSgI/edit#)
-
+**Exercises**:  [Lights Out](lights_out.md)
 
 ## Week 2, Day 4
 
@@ -46,13 +44,18 @@ Exercises: [Filter, Map, Reduce, Count, Sort](https://docs.google.com/document/d
 
 ## Week 2, Day 5
 
+Note: Probably could have done this later (to have more time to practice with functions, start on projects, etc.)
+
 **Primary Reading**: [github's git handbook](https://guides.github.com/introduction/git-handbook/), [Git Basics](https://git-scm.com/book/en/v1/Getting-Started-Git-Basics) (there’s lots of information in this book, we’re just going to read the “getting started” bit, you can read the rest of it some other time), [git koans](http://stevelosh.com/blog/2013/04/git-koans/)  (Just for fun. Git has a bit of a reputation for not having the best user interface)
 
 **Code Reading:** [https://github.com/gleitz/howdoi](https://github.com/gleitz/howdoi) (Don’t expect to get this on the first try; spend 30min looking at it, make notes about what you found and we’ll discuss in class. Hint: start by just reading the documentation and looking for the “guts” of the program.)
 
 **Discussion Questions**: What did we learn about howdoi?
 
-**Exercises**: [git for code class](https://docs.google.com/document/d/1qu8VjF_5quahlqqISO9OFQfmai5_3DpACbSh4hUykFY/edit?usp=sharing),  [visualizer for git branching](http://git-school.github.io/visualizing-git/), (Extra credit: [Learn Enough git to be Dangerous](https://www.learnenough.com/git-tutorial/getting_started), [https://learngitbranching.js.org/](https://learngitbranching.js.org/))
+**Exercises**: [git for code class](git_setup.md),
+ [visualizer for git branching](http://git-school.github.io/visualizing-git/),
+(Extra credit: [Learn Enough git to be Dangerous](https://www.learnenough.com/git-tutorial/getting_started),
+ [https://learngitbranching.js.org/](https://learngitbranching.js.org/))
 
 
 ## Week 2, Day 6
@@ -63,4 +66,4 @@ Exercises: [Filter, Map, Reduce, Count, Sort](https://docs.google.com/document/d
 
 **Discussion Questions**: What did we learn about howdoi?
 
-**Exercises**: [Going "Serverless"](https://docs.google.com/document/d/1aNGa9rWfGQ15zuXg9AX9yGM-HCv4zufFxrCDGVF5sBI/edit?usp=sharing)
+**Exercises**: [Going "Serverless"](serverless.md)
