@@ -52,7 +52,7 @@ Interview each other after a brief introduction from me.
 
 ## Week 6, Day 5
 
-**Primary Reading**: TODO: JS syntax and array methods
+**Primary Reading**:
 [Intro to databases](https://wsvincent.com/database-design-tutorial-for-beginners/),
 [Notes on distributed systems](https://www.somethingsimilar.com/2013/01/14/notes-on-distributed-systems-for-young-bloods/)
 
@@ -63,7 +63,11 @@ discus ACID, CAP, SQL/noSQL, consistent hashing.
 
 **Before Class**: [Pick a domain name (but don't register it yet)](https://instantdomainsearch.com/)
 
-**Exercises**: TODO
-[Create a personal website hosted on AWS](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/getting-started.html),
-[Free, Shiny site templates](https://html5up.net/),
-[Github Pages are a good option for project websites](https://guides.github.com/features/pages/)
+**Exercises**:
+* [Create a personal website hosted on AWS](https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/getting-started.html),
+* [Free, Shiny site templates](https://html5up.net/),
+* [Github Pages are a good option for project websites](https://guides.github.com/features/pages/),
+Other idea for things you can do with your own domain:
+* [email forwarding](https://improvmx.com/),
+* [blogging](https://jekyllrb.com/) ([quick guide to using jekyll with s3](http://danielwhyte.com/app/design/2014/10/05/creating-a-jekyll-s3-server.html)),
+* [uploading your website to s3 from the command line](https://github.com/laurilehmijoki/s3_website)
