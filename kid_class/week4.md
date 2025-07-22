@@ -50,7 +50,7 @@ class Actor:
 
     def draw(self, screen):
         screen.addstr(self.y, self.x, self.char, curses.color_pair(self.color))
-         ```
+ ```
 
 This "Actor" class can be used to represent a moving object in a curses game. The class holds 4 pieces of data: the character it's represented by on the screen, the color it's printed in, and the coordinates of where it is on screen. It has two  methods (functions attached to a class are usually called methods): one to move the actor one step on the board, and another to print the actor's character to the screen. 
 ## Exercise: PacMan
